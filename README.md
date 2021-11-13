@@ -45,7 +45,7 @@ Here is a short brief view of my project.
 - To view purchase history
 - ![image](https://user-images.githubusercontent.com/91713896/141604924-5d9b132b-4100-4df3-b5e4-d93cb6686cdb.png)
 
-And now if he/she chooses customer section-
+- And now if he/she chooses customer section-
 
 - ![image](https://user-images.githubusercontent.com/91713896/141604965-6ef70e50-119e-4ad1-ad61-855299d4873b.png)
 
@@ -55,15 +55,15 @@ then he/she proceeds gets their bill
 
 And when they proceed to pay
 
-using cash on delivery option or
+- using cash on delivery option or
 ![image](https://user-images.githubusercontent.com/91713896/141605083-83c9155d-6f61-4c51-b256-224ffb112e75.png)
 
-by net banking
+- by net banking
 ![image](https://user-images.githubusercontent.com/91713896/141605121-4b98127b-e567-46e6-bc1a-033c4d9e3ae6.png)
 
-After purchase a message will pop-up
+- After purchase a message will pop-up
 ![image](https://user-images.githubusercontent.com/91713896/141605145-324b3366-c196-4e14-9764-4467180e5458.png)
 
-Thats all about my project.
+- Thats all about my project.
 
-This project is not made by proffesionals, this was my school time project so some limitations might be there. So please forgive any mistakes that I made and I will try to improve it.
+- This project was not made by proffesionals, this was my school time project so some limitations might be there. So please forgive any mistakes that I made and I will try to improve it.
