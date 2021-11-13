@@ -30,24 +30,7 @@ def add_to_cart():
         c_pay=combobox_pay.get()
         if combobox_pay.current() == 1:
             btn_pay=Button(top_pay,text="OK",command=invoice_generate)
-            btn_pay.place(x=100,y=140)
-        elif combobox_pay.current() == 2:
-            lab_pay5 = Label(top_pay, text='BANK NAME', font=('bold', 11))
-            lab_pay5.place(x=20,y=210)
-            entry_pay5 = Entry(top_pay, textvariable=nob)
-            entry_pay5.place(x=200,y=210)
-            lab_pay6 = Label(top_pay, text='A/C No.', font=('bold', 11))
-            lab_pay6.place(x=20,y=250)
-            entry_pay6 = Entry(top_pay, textvariable=acno)
-            entry_pay6.place(x=200,y=250)
-            lab_pay7 = Label(top_pay, text='IFSC', font=('bold', 11))
-            lab_pay7.place(x=20,y=290)
-            entry_pay7 = Entry(top_pay, textvariable=ifsc)
-            entry_pay7.place(x=200,y=290)
-            btn_pay1=Button(top_pay,text="OK",command=invoice_generate)
-            btn_pay1.place(x=100,y=350)
-            
-            
+            btn_pay.place(x=100,y=140)       
     sl=[]
     def addbill():
         inm=combobox1.get()
@@ -108,7 +91,7 @@ def add_to_cart():
         lab_pay4 = Label(top_pay, text='MODE OF PAYMENT', font=('bold', 11))
         lab_pay4.place(x=20,y=110)
         combobox_pay=Combobox(top_pay)
-        items=("SELECT","CASH ON DELIVERY","NET BANKING")
+        items=("SELECT","CASH ON DELIVERY")
         combobox_pay["values"]=items
         combobox_pay.place(x=200,y=110)
         combobox_pay.current(0)
