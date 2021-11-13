@@ -9,3 +9,5 @@ mode varchar(20),
 custname varchar(30),
 address varchar(150),
 phone varchar(20));
+
+#use this query to create a table in mysql database.
