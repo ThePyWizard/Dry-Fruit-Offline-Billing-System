@@ -11,7 +11,7 @@ c1=db.cursor()
 def add_to_cart():
     root=Toplevel()
     root.geometry("1000x600")
-    root.iconbitmap(r"E:\JISHNU'S STUDIOUS WORLD\CS EXPERT LESSONS\PROJECT\shopping_cart.ico")
+    root.iconbitmap(r"E:\PROJECT\shopping_cart.ico")
     iprice = StringVar()
     cname = StringVar()
     cadd = StringVar()
@@ -91,7 +91,7 @@ def add_to_cart():
         global combobox_pay
         global top_pay
         top_pay=Toplevel()
-        top_pay.iconbitmap(r"E:\JISHNU'S STUDIOUS WORLD\CS EXPERT LESSONS\PROJECT\shopping_cart.ico")
+        top_pay.iconbitmap(r"E:\PROJECT\shopping_cart.ico")
         top_pay.geometry("700x600")
         lab_pay1 = Label(top_pay, text='CUSTOMER NAME', font=('bold', 11))
         lab_pay1.place(x=20,y=20)
@@ -118,7 +118,7 @@ def add_to_cart():
         global ino
         global top
         top=Toplevel()
-        top.iconbitmap(r"E:\JISHNU'S STUDIOUS WORLD\CS EXPERT LESSONS\PROJECT\shopping_cart.ico")
+        top.iconbitmap(r"E:\PROJECT\shopping_cart.ico")
         ino=get_invoiceno()
         lbl=Label(top,text="3JN ONLINE DRY FRUIT SHOP")
         lbl.pack()
